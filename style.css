@@ -1,0 +1,320 @@
+@font-face {
+	font-family: indieflower;
+	src: url(font/IndieFlower.ttf);
+}
+body {
+	font-family: indieflower;
+	top: 0;
+	left: 0;
+	height: 100%;
+	text-align: center;
+	margin-top: 90px;
+	background: linear-gradient(90deg, rgba(46, 107, 36, 1) 13%, rgba(153, 242, 163, 1) 50%, rgba(46, 107, 36, 1) 87%);
+}
+nav {
+	width: 85%;
+	margin-left: 7.4%;
+	position: fixed;
+	background: linear-gradient(90deg, rgba(46, 107, 36, 1) 13%, rgba(153, 242, 163, 1) 50%, rgba(46, 107, 36, 1) 87%);
+	box-shadow: 0px 0px 20px 0px inset black;
+	border-radius: 10px;
+}
+a {
+	color: white;
+}
+#loader {
+	position: fixed;
+	left: 0%;
+	top: 0%;
+	z-index: 1000000;
+	background-image: url("img/plic.png");
+	background-repeat: no-repeat;
+	background-position: center top;
+	background-size: 100% 100vh;
+	width: 100%;
+	height: 100%;
+	animation: spin 10s ease-in-out 1;
+	animation: spin 10s ease-in-out 1;
+}
+
+@-webkit-keyframes spin {
+	0% {
+		transform: scale(1);
+		opacity: 1;
+	}
+	100% {
+		transform: scale(1.1);
+		opacity: 0;
+	}
+}
+@keyframes spin {
+	0% {
+		transform: scale(1);
+		opacity: 1;
+	}
+	100% {
+		transform: scale(1.1);
+		opacity: 0;
+	}
+}
+
+#myDiv {
+	display: none;
+	text-align: center;
+}
+
+div {
+	width: 80%;
+	margin-left: 5.4%;
+	margin-top: -980px;
+	transform: rotateX(80deg);
+	transform: rotateX(80deg);
+	perspective: 400px;
+	perspective: 400px;
+	margin-bottom: -20%;
+	border-radius: 30px;
+	transition: 6s;
+	z-index: -100;
+}
+
+div:hover,
+div:focus {
+	margin-top: -18px;
+	transform-style: preserve-3d;
+	transform: rotateX(2deg);
+	transform: rotateX(2deg);
+	perspective: 400px;
+	perspective: 400px;
+	z-index: 1;
+	z-index: 100;
+}
+
+.jumbotron-fluid {
+	height: 100%;
+	width: 100%;
+	box-shadow: 0px 0px 20px 0px inset black;
+	background-image: url("img/lemn.jpg");
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+.jumbotron-fluid .acasa {
+	width: 90%;
+
+	position: absolute;
+	transform-style: preserve-3d;
+	transform: rotateX(-80deg);
+	transform: rotateX(-80deg);
+	transform-style: preserve-3d;
+	perspective: 400px;
+}
+.jumbotron-fluid .cand {
+	width: 90%;
+	position: absolute;
+	transform-style: preserve-3d;
+	transform: rotateX(80deg);
+	transform: rotateX(80deg);
+	transform-style: preserve-3d;
+	perspective: 400px;
+}
+.jumbotron-fluid .unde {
+	width: 90%;
+	position: absolute;
+	transform-style: preserve-3d;
+	transform: rotateX(-80deg);
+	transform: rotateX(-80deg);
+	transform-style: preserve-3d;
+	perspective: 400px;
+}
+
+.jumbotron-fluid .confirmare {
+	width: 90%;
+	position: absolute;
+	transform-style: preserve-3d;
+	transform: rotateX(-80deg);
+	transform: rotateX(-80deg);
+	transform-style: preserve-3d;
+	perspective: 400px;
+}
+#acasa {
+	width: 100%;
+	height: 450px;
+	text-align: center;
+	padding: 0.5%;
+	margin-top: 130px;
+	margin-bottom: -10px;
+	background-image: url("img/nunta.png"), url("img/lemn.jpg");
+	background-position: top, center;
+	background-repeat: no-repeat, no-repeat;
+	background-size: 70% 35%, cover;
+}
+
+#acasa h4 {
+	margin-top: 15%;
+}
+
+.jumbotron-fluid:nth-child(1) {
+	transform: rotateX(-5deg);
+}
+
+.jumbotron-fluid:nth-child(2) {
+	transform: rotateX(5deg);
+	transition-delay: 6s;
+}
+
+.jumbotron-fluid:nth-child(3) {
+	transform: rotateX(-5deg);
+	transition-delay: 12s;
+}
+
+.jumbotron-fluid:nth-child(4) {
+	transform: rotateX(5deg);
+	transition-delay: 18s;
+}
+
+.jumbotron-fluid:nth-child(5) {
+	transform: rotateX(-5deg);
+	transition-delay: 24s;
+}
+
+#cand {
+	width: 100%;
+	height: 450px;
+	margin-top: -10px;
+	margin-bottom: -10px;
+	text-align: center;
+	padding: 3%;
+	border-bottom: none;
+}
+#cand p {
+	margin-top: 0%;
+}
+#unde {
+	width: 100%;
+	height: 450px;
+	margin-top: -10px;
+	margin-bottom: -10px;
+	text-align: center;
+	padding: 3%;
+	border-bottom: none;
+}
+#unde h4 {
+	margin-top: -5%;
+}
+#unde2 {
+	width: 100%;
+	height: 450px;
+	margin-top: -10px;
+	margin-bottom: -10px;
+	text-align: center;
+	padding: 3%;
+	border-bottom: none;
+}
+#confirmare {
+	width: 100%;
+	height: 450px;
+	text-align: center;
+	padding: 10%;
+	margin-top: -10px;
+	margin-bottom: -10px;
+}
+#unde {
+	margin-top: 0%;
+}
+p {
+	text-align: center;
+	font-size: 24px;
+
+	font-weight: 900;
+}
+h4 {
+	text-align: center;
+	font-size: 30px;
+
+	font-weight: 900;
+}
+
+iframe {
+	width: 50%;
+	height: 150%;
+	margin-bottom: 10%;
+}
+
+/*  Rezolutie mica */
+
+@media only screen and (max-width: 992px) {
+	.navbar-brand {
+		margin-right: 0.3rem;
+		font-size: 0.8rem;
+	}
+	.nav-link {
+		display: block;
+		padding: 0.2rem 0.2rem;
+	}
+	nav {
+		width: 100%;
+		margin-left: 0px;
+	}
+	div {
+		width: 90%;
+		margin-left: 2.5%;
+		margin-top: -940px;
+		transform: rotateX(80deg);
+		transform: rotateX(80deg);
+		perspective: 400px;
+		perspective: 400px;
+		transition: 6s;
+	}
+	div:hover,
+	div:focus {
+		margin-top: 50px;
+		transform-style: preserve-3d;
+		transform: rotateX(10deg);
+		transform: rotateX(10deg);
+		perspective: 4000px;
+		perspective: 400px;
+	}
+	.jumbotron-fluid {
+		width: 90%;
+	}
+	#acasa {
+		margin-top: 85px;
+		margin-bottom: -10px;
+		background-image: url("img/nunta.png"), url("img/lemn.jpg");
+		background-position: top, center;
+		background-repeat: no-repeat, no-repeat;
+		background-size: 100% 35%, cover;
+	}
+	#acasa h4 {
+		margin-top: 60%;
+		margin-bottom: 5%;
+	}
+	#cand {
+		margin-top: -10px;
+		margin-bottom: -10px;
+		padding-bottom: 5%;
+	}
+	#cand h4 {
+		margin-top: 15%;
+	}
+	#unde {
+		margin-top: -10px;
+		margin-bottom: -10px;
+	}
+	#confirmare {
+		padding-top: 30%;
+		margin-top: -10px;
+		margin-bottom: -10px;
+	}
+	iframe {
+		width: 90%;
+	}
+	p {
+		text-align: center;
+		font-size: 18px;
+	}
+	h4 {
+		text-align: center;
+		font-size: 24px;
+	}
+}
